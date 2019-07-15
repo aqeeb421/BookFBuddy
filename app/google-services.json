@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "716167488253",
+    "firebase_url": "https://bookfbuddy.firebaseio.com",
+    "project_id": "bookfbuddy",
+    "storage_bucket": "bookfbuddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716167488253:android:d33bdc3da8abfb65",
+        "android_client_info": {
+          "package_name": "com.example.bookfbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716167488253-tav9dnllv2c6dktenarjprkjfq4re3lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookfbuddy",
+            "certificate_hash": "80185df23d3c39290b38a33004affd5d89af81aa"
+          }
+        },
+        {
+          "client_id": "716167488253-ihr4cg4dcm54ligca4mr1jm40f3lo70t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookfbuddy",
+            "certificate_hash": "a46f8fec79d59f549a7cee7e92f47ecca1ed35da"
+          }
+        },
+        {
+          "client_id": "716167488253-6858ad13ivhvm2c1h4epmu97mhn26db5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPU2RNrHl_tomfiovpDUB8DvKx_zKBFB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716167488253-6858ad13ivhvm2c1h4epmu97mhn26db5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

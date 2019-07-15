@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cir_reg_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/index"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        app:civ_border_width="2dp"/>
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="28sp"
+        android:padding="4dp"
+        android:background="@drawable/inputs"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:layout_below="@id/cir_reg_img"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        />
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@id/reg_email"
+        android:padding="4dp"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sign Up"
+        android:layout_below="@id/reg_password"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tv_reg_to_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_btn"
+        android:layout_marginTop="21dp"
+        android:text="Already have Account? SignUp"
+        android:textAlignment="center"
+        android:textColor="#f1f1f1"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
